@@ -1,0 +1,1474 @@
+{
+  "3d886e852beb3a788cf15335d998585b" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "c9a8e066da031fe",
+      "status" : "failed",
+      "statusDetails" : "Rest Service key [GetAllProductsList] not found in rest-services config",
+      "time" : {
+        "start" : 1669384230528,
+        "stop" : 1669384267354,
+        "duration" : 36826
+      }
+    }, {
+      "uid" : "9668d8881cedee92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669384146035,
+        "stop" : 1669384175972,
+        "duration" : 29937
+      }
+    }, {
+      "uid" : "d9aa699a8f839df4",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='product-overlay']/descendant-or-self::a[@data-product-id='3'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NTS5CG9502CJC', ip: '172.21.80.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\furkan.ozdemir\\wor...}, goog:chromeOptions: {debuggerAddress: localhost:65134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bb5c105b31c9a9b594843e2155c49752",
+      "time" : {
+        "start" : 1669384068958,
+        "stop" : 1669384109324,
+        "duration" : 40366
+      }
+    } ]
+  },
+  "efb4d1c90882838e7e0c60e88986f8a2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "a96f6a22890b91c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643031535534,
+        "stop" : 1643031555936,
+        "duration" : 20402
+      }
+    }, {
+      "uid" : "ebf4ab03a2a848c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643031124878,
+        "stop" : 1643031143639,
+        "duration" : 18761
+      }
+    }, {
+      "uid" : "18b9ff2b3662f457",
+      "status" : "failed",
+      "statusDetails" : "Lambda expression in com.snapbytes.snaptest.web.WebSteps: expected not null but was null within 10 seconds.",
+      "time" : {
+        "start" : 1643030943972,
+        "stop" : 1643030983605,
+        "duration" : 39633
+      }
+    } ]
+  },
+  "efa5acdeb7fa104f00b5be4d4d8dd7de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d482f903490e4a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669380003707,
+        "stop" : 1669380033944,
+        "duration" : 30237
+      }
+    }, {
+      "uid" : "3574e2fa542e86c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669379610347,
+        "stop" : 1669379640474,
+        "duration" : 30127
+      }
+    } ]
+  },
+  "2a0d487820baf4aaa6d30274073a70a8" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "51ab7b659166180a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656666805963,
+        "stop" : 1656666817348,
+        "duration" : 11385
+      }
+    }, {
+      "uid" : "e21f9f3254f11321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656666769941,
+        "stop" : 1656666781171,
+        "duration" : 11230
+      }
+    }, {
+      "uid" : "a19a518031e053f7",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: onlyOneMainOption (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1656666471490,
+        "stop" : 1656666492544,
+        "duration" : 21054
+      }
+    }, {
+      "uid" : "a2b334f82d341095",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //input[@value='kadın'] (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1656665371956,
+        "stop" : 1656665387969,
+        "duration" : 16013
+      }
+    }, {
+      "uid" : "eeea73ac552efea2",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //input[@value='kadın'] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NTS5CG9502CJC', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\furkan.ozdemir\\wor...}, goog:chromeOptions: {debuggerAddress: localhost:57481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 212274f3960e41c6bee2b5d76e6785ee",
+      "time" : {
+        "start" : 1656665297546,
+        "stop" : 1656665316716,
+        "duration" : 19170
+      }
+    } ]
+  },
+  "2814ea29a93036aa21a36ff605253bfc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "68026fad62913a71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624351031061,
+        "stop" : 1624351045767,
+        "duration" : 14706
+      }
+    }, {
+      "uid" : "d0db5e4a687e4caf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624350841689,
+        "stop" : 1624350855046,
+        "duration" : 13357
+      }
+    }, {
+      "uid" : "a1614f1dc8ba8c84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624350528734,
+        "stop" : 1624350548874,
+        "duration" : 20140
+      }
+    }, {
+      "uid" : "ef7f4fcdf6ad9dca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624350443651,
+        "stop" : 1624350461050,
+        "duration" : 17399
+      }
+    }, {
+      "uid" : "2c7ad5ef85a5f0ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624350230705,
+        "stop" : 1624350249371,
+        "duration" : 18666
+      }
+    } ]
+  },
+  "7d7603c2e31dad5e9d2ba85bb5069d5e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2bd811567ba81556",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: firstnameTextbox (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1663923990177,
+        "stop" : 1663924009457,
+        "duration" : 19280
+      }
+    } ]
+  },
+  "e9c2f583dd78c098c69a556c63b38df4" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "f6807b945de057f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669378026202,
+        "stop" : 1669378041320,
+        "duration" : 15118
+      }
+    }, {
+      "uid" : "bc8ead554f6dcfff",
+      "status" : "failed",
+      "statusDetails" : "Page [autoExerciseUrl] is not configured",
+      "time" : {
+        "start" : 1669377937031,
+        "stop" : 1669377945355,
+        "duration" : 8324
+      }
+    }, {
+      "uid" : "58d850a05212efc0",
+      "status" : "failed",
+      "statusDetails" : "Page [autoExerciseUrl] is not configured",
+      "time" : {
+        "start" : 1669377779872,
+        "stop" : 1669377787628,
+        "duration" : 7756
+      }
+    } ]
+  },
+  "54d69668a4d4371b614f5272a1530e88" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 13
+    },
+    "items" : [ {
+      "uid" : "497f925daf31b843",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660916728839,
+        "stop" : 1660916748165,
+        "duration" : 19326
+      }
+    }, {
+      "uid" : "2ae74e0eb3dfb18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660916535381,
+        "stop" : 1660916559175,
+        "duration" : 23794
+      }
+    }, {
+      "uid" : "e8a0025f427817f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660916499628,
+        "stop" : 1660916510380,
+        "duration" : 10752
+      }
+    }, {
+      "uid" : "1f8e7453e8f3e13f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660910394542,
+        "stop" : 1660910405335,
+        "duration" : 10793
+      }
+    }, {
+      "uid" : "58deb57e490dc803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660910305794,
+        "stop" : 1660910316097,
+        "duration" : 10303
+      }
+    } ]
+  },
+  "c7dc58e4b888f9df4e54e96cc94472d3" : {
+    "statistic" : {
+      "failed" : 10,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 18
+    },
+    "items" : [ {
+      "uid" : "d7caa2a8c84e4bf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674250416765,
+        "stop" : 1674250438722,
+        "duration" : 21957
+      }
+    }, {
+      "uid" : "5a86b4ff30750309",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674250298352,
+        "stop" : 1674250322393,
+        "duration" : 24041
+      }
+    }, {
+      "uid" : "476ce50f90cea4fa",
+      "status" : "failed",
+      "statusDetails" : "Exception while filling last name textbox area",
+      "time" : {
+        "start" : 1674249463870,
+        "stop" : 1674249482407,
+        "duration" : 18537
+      }
+    }, {
+      "uid" : "fe22621865581a94",
+      "status" : "failed",
+      "statusDetails" : "Exception while filling last name textbox area",
+      "time" : {
+        "start" : 1674249421961,
+        "stop" : 1674249445218,
+        "duration" : 23257
+      }
+    }, {
+      "uid" : "5699c2f7ceb0ffe7",
+      "status" : "failed",
+      "statusDetails" : "Exception while filling last name textbox area",
+      "time" : {
+        "start" : 1674249349621,
+        "stop" : 1674249397443,
+        "duration" : 47822
+      }
+    } ]
+  },
+  "aa8cf8909965cc666769a6faed44f4e" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "af621aff241c46c9",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: \"201\"\n     but: was \"200\"",
+      "time" : {
+        "start" : 1624446075561,
+        "stop" : 1624446080677,
+        "duration" : 5116
+      }
+    }, {
+      "uid" : "7a50de5505067a0b",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: \"201\"\n     but: was \"200\"",
+      "time" : {
+        "start" : 1624446075561,
+        "stop" : 1624446080677,
+        "duration" : 5116
+      }
+    }, {
+      "uid" : "20c662bde5d1019a",
+      "status" : "failed",
+      "statusDetails" : "[page] compared to [3]\nExpected: \"3\"\n     but: was \"2\"",
+      "time" : {
+        "start" : 1624446033135,
+        "stop" : 1624446038486,
+        "duration" : 5351
+      }
+    }, {
+      "uid" : "206152b3906acfb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624446000844,
+        "stop" : 1624446005942,
+        "duration" : 5098
+      }
+    }, {
+      "uid" : "d3875859d676a15d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624445903931,
+        "stop" : 1624445910471,
+        "duration" : 6540
+      }
+    } ]
+  },
+  "9e008f391a593e85fc936f0fa0cc762b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "244b8e8d0d511ae7",
+      "status" : "failed",
+      "statusDetails" : "Please open browser before using pages",
+      "time" : {
+        "start" : 1643026892165,
+        "stop" : 1643026892312,
+        "duration" : 147
+      }
+    } ]
+  },
+  "1d64b0b3e18b33cb6d74c862bfae298b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "37fb3c85d9a7f1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643029519413,
+        "stop" : 1643029541537,
+        "duration" : 22124
+      }
+    }, {
+      "uid" : "f5a478dbad73c1e8",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: timeout during url change after 20000 ms.\nexpected url: http://the-internet.herokuapp.com/ \nactual url: http://the-internet.herokuapp.com/add_remove_elements/ (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NTS5CG608613Z', ip: '10.253.196.193', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1643028358239,
+        "stop" : 1643028394031,
+        "duration" : 35792
+      }
+    }, {
+      "uid" : "edb3674c25cc8ed8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643027093907,
+        "stop" : 1643027111657,
+        "duration" : 17750
+      }
+    }, {
+      "uid" : "d1138c03d15da358",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643023220014,
+        "stop" : 1643023235014,
+        "duration" : 15000
+      }
+    } ]
+  },
+  "70d1d41ee672f16e0e11afd5969b9344" : {
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "787ba3e1df888cee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656681344623,
+        "stop" : 1656681366920,
+        "duration" : 22297
+      }
+    }, {
+      "uid" : "88105438b03f8044",
+      "status" : "failed",
+      "statusDetails" : "unknown error: cannot determine loading status\nfrom unknown error: unexpected command response\n  (Session info: chrome=103.0.5060.66)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NTS5CG9502CJC', ip: '10.253.201.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\furkan.ozdemir\\wor...}, goog:chromeOptions: {debuggerAddress: localhost:53050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c13daaacdcf255d16cc98ddbd2f1a51c",
+      "time" : {
+        "start" : 1656681232010,
+        "stop" : 1656681247309,
+        "duration" : 15299
+      }
+    }, {
+      "uid" : "f26e71a1629c3d9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656681187635,
+        "stop" : 1656681199611,
+        "duration" : 11976
+      }
+    }, {
+      "uid" : "a99c950e57d225f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656679556900,
+        "stop" : 1656679589755,
+        "duration" : 32855
+      }
+    }, {
+      "uid" : "fe5e71d5555f529",
+      "status" : "failed",
+      "statusDetails" : "java.lang.RuntimeException: windowSize in browser config must be formatted like 'width,height'",
+      "time" : {
+        "start" : 1656679538081,
+        "stop" : 1656679538893,
+        "duration" : 812
+      }
+    } ]
+  },
+  "58879c8e2abbfb31fee32bc178990b08" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "eccb21a04470d2ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669366475503,
+        "stop" : 1669366488760,
+        "duration" : 13257
+      }
+    }, {
+      "uid" : "3ad564ba78aaa418",
+      "status" : "failed",
+      "statusDetails" : "Lambda expression in com.snapbytes.snaptest.web.WebSteps: expected not null but was null within 15 seconds.",
+      "time" : {
+        "start" : 1669366394761,
+        "stop" : 1669366426481,
+        "duration" : 31720
+      }
+    }, {
+      "uid" : "c45252f84346cfe",
+      "status" : "failed",
+      "statusDetails" : "Lambda expression in com.snapbytes.snaptest.web.WebSteps: expected not null but was null within 15 seconds.",
+      "time" : {
+        "start" : 1669366294132,
+        "stop" : 1669366353572,
+        "duration" : 59440
+      }
+    }, {
+      "uid" : "3422d18c64e69909",
+      "status" : "failed",
+      "statusDetails" : "Lambda expression in com.snapbytes.snaptest.web.WebSteps: expected not null but was null within 15 seconds.",
+      "time" : {
+        "start" : 1669366217113,
+        "stop" : 1669366266643,
+        "duration" : 49530
+      }
+    }, {
+      "uid" : "30d9dfbde9adc2cb",
+      "status" : "failed",
+      "statusDetails" : "Lambda expression in com.snapbytes.snaptest.web.WebSteps: expected not null but was null within 15 seconds.",
+      "time" : {
+        "start" : 1669366102859,
+        "stop" : 1669366132606,
+        "duration" : 29747
+      }
+    } ]
+  },
+  "3ca7ba0b85c7c6a62568df3f5b0777ac" : {
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "8b262b7d23cd35f4",
+      "status" : "failed",
+      "statusDetails" : "no user interface defined. Please 'open browser', 'run mobile application', or 'start program' \nExpected: not null\n     but: was null",
+      "time" : {
+        "start" : 1638259270686,
+        "stop" : 1638259270790,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "235ac11c6e55eb86",
+      "status" : "failed",
+      "statusDetails" : "no user interface defined. Please 'open browser', 'run mobile application', or 'start program' \nExpected: not null\n     but: was null",
+      "time" : {
+        "start" : 1638259270686,
+        "stop" : 1638259270790,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "9d339708150465b4",
+      "status" : "failed",
+      "statusDetails" : "no user interface defined. Please 'open browser', 'run mobile application', or 'start program' \nExpected: not null\n     but: was null",
+      "time" : {
+        "start" : 1638259270686,
+        "stop" : 1638259270790,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "7aff7391509070a0",
+      "status" : "failed",
+      "statusDetails" : "no user interface defined. Please 'open browser', 'run mobile application', or 'start program' \nExpected: not null\n     but: was null",
+      "time" : {
+        "start" : 1638259270686,
+        "stop" : 1638259270790,
+        "duration" : 104
+      }
+    }, {
+      "uid" : "743bebac4eb0fc4c",
+      "status" : "failed",
+      "statusDetails" : "no user interface defined. Please 'open browser', 'run mobile application', or 'start program' \nExpected: not null\n     but: was null",
+      "time" : {
+        "start" : 1638259270686,
+        "stop" : 1638259270790,
+        "duration" : 104
+      }
+    } ]
+  },
+  "fdc1d330e2bf0e272d6a9ae1c3667447" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9c684deb974da32",
+      "status" : "failed",
+      "statusDetails" : "Browser is not active. Please open browser or switch to browser.",
+      "time" : {
+        "start" : 1669359437133,
+        "stop" : 1669359437222,
+        "duration" : 89
+      }
+    } ]
+  },
+  "f7e29118c3079daf1ea4a83c8e519ad9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5e3d524a5c415c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624446913750,
+        "stop" : 1624446918924,
+        "duration" : 5174
+      }
+    } ]
+  },
+  "c647e911c0edd08def72c346e64e1c92" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8854195d40124794",
+      "status" : "failed",
+      "statusDetails" : "Please open browser before using pages",
+      "time" : {
+        "start" : 1643026857031,
+        "stop" : 1643026857158,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "f9108755e7c713ce",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1643023123502,
+        "stop" : 1643023123520,
+        "duration" : 18
+      }
+    } ]
+  },
+  "f243c6f443b46f0b29ce28e065a39579" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "268b2e7b7669a9f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674438360894,
+        "stop" : 1674438385830,
+        "duration" : 24936
+      }
+    }, {
+      "uid" : "45f4264e6ec7a246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674438138775,
+        "stop" : 1674438188549,
+        "duration" : 49774
+      }
+    }, {
+      "uid" : "f06abe850847b8db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674437955027,
+        "stop" : 1674438007683,
+        "duration" : 52656
+      }
+    }, {
+      "uid" : "8bf2f132fe2bfbc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674436667137,
+        "stop" : 1674436718067,
+        "duration" : 50930
+      }
+    }, {
+      "uid" : "3f96e75817f1c14f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674435983532,
+        "stop" : 1674436006583,
+        "duration" : 23051
+      }
+    } ]
+  },
+  "bccbfcd799f8fc7543d98492d3730a94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9fd396c171fbf48b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669022575727,
+        "stop" : 1669022600632,
+        "duration" : 24905
+      }
+    }, {
+      "uid" : "481f3ebfc313f949",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669022304911,
+        "stop" : 1669022326559,
+        "duration" : 21648
+      }
+    } ]
+  },
+  "6ed1f73e95d5be83ec211470e2a26a15" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f2b0580608bc2e81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624346643528,
+        "stop" : 1624346664175,
+        "duration" : 20647
+      }
+    }, {
+      "uid" : "a4c9efae22002a40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624346573579,
+        "stop" : 1624346601063,
+        "duration" : 27484
+      }
+    } ]
+  },
+  "f0840f84fc366d121180efb1a2ef40ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecd33de35c8adec3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674216156142,
+        "stop" : 1674216181639,
+        "duration" : 25497
+      }
+    } ]
+  },
+  "c70194330e0da0176d533aaa3215c660" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "6d3f6aa05ef18769",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660913552143,
+        "stop" : 1660913566194,
+        "duration" : 14051
+      }
+    }, {
+      "uid" : "cda20e7659b34104",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660910662951,
+        "stop" : 1660910673037,
+        "duration" : 10086
+      }
+    }, {
+      "uid" : "e84d7d6ebaea3a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660910605346,
+        "stop" : 1660910615394,
+        "duration" : 10048
+      }
+    }, {
+      "uid" : "f0c6e2052175b09f",
+      "status" : "failed",
+      "statusDetails" : "Exception while filling username textbox",
+      "time" : {
+        "start" : 1660910470988,
+        "stop" : 1660910488349,
+        "duration" : 17361
+      }
+    } ]
+  },
+  "3407bd759234117efbf3cb29520f447c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "b058b835c20aaacc",
+      "status" : "failed",
+      "statusDetails" : "Base url [try test] is not configured",
+      "time" : {
+        "start" : 1656664910636,
+        "stop" : 1656664928671,
+        "duration" : 18035
+      }
+    }, {
+      "uid" : "8f77dca970c1a16d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654696005132,
+        "stop" : 1654696031167,
+        "duration" : 26035
+      }
+    }, {
+      "uid" : "2afa5e64c394991e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654695938678,
+        "stop" : 1654695959275,
+        "duration" : 20597
+      }
+    } ]
+  },
+  "52c5f14fd39cdb4a7d6f7ac9abe3aa68" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b3f1e6c8da50ef38",
+      "status" : "failed",
+      "statusDetails" : "Base url [tryTestingThisUrl] is not configured",
+      "time" : {
+        "start" : 1674216182188,
+        "stop" : 1674216188717,
+        "duration" : 6529
+      }
+    }, {
+      "uid" : "c39b5eb2174affd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674212883933,
+        "stop" : 1674212913133,
+        "duration" : 29200
+      }
+    } ]
+  },
+  "14628f4e056e92ed0f3b1af58a94c70b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5d45aa44d0b7a91",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: sqldb \"bootcampDB\" should be defined in environments\n     but: was null",
+      "time" : {
+        "start" : 1654695938158,
+        "stop" : 1654695938327,
+        "duration" : 169
+      }
+    } ]
+  },
+  "9252f1e032557f7f25e8e5a4ffc8d827" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "5451a7f4b58caa82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669374969926,
+        "stop" : 1669374973233,
+        "duration" : 3307
+      }
+    }, {
+      "uid" : "d4a0e42533d483a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669374742647,
+        "stop" : 1669374746414,
+        "duration" : 3767
+      }
+    }, {
+      "uid" : "a8e915d372efbfc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669374706012,
+        "stop" : 1669374710203,
+        "duration" : 4191
+      }
+    }, {
+      "uid" : "482461e7bf3c39ac",
+      "status" : "failed",
+      "statusDetails" : "Rest Service key [SingleUSer] not found in rest-services config",
+      "time" : {
+        "start" : 1669374672864,
+        "stop" : 1669374676451,
+        "duration" : 3587
+      }
+    }, {
+      "uid" : "ba4dd0821738b07f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669374432093,
+        "stop" : 1669374447495,
+        "duration" : 15402
+      }
+    } ]
+  },
+  "f2df604c1b9fc91f135d9555856c49c7" : {
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 19
+    },
+    "items" : [ {
+      "uid" : "aad1fb7680a97dc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651062206236,
+        "stop" : 1651062241501,
+        "duration" : 35265
+      }
+    }, {
+      "uid" : "99a9535935b72235",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651061629851,
+        "stop" : 1651061659238,
+        "duration" : 29387
+      }
+    }, {
+      "uid" : "d5bfa6b781fb1c68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651061481978,
+        "stop" : 1651061512595,
+        "duration" : 30617
+      }
+    }, {
+      "uid" : "5046f681f351b89f",
+      "status" : "failed",
+      "statusDetails" : "The system cannot find the path specified",
+      "time" : {
+        "start" : 1651061379710,
+        "stop" : 1651061399399,
+        "duration" : 19689
+      }
+    }, {
+      "uid" : "a0cece4ef1829a",
+      "status" : "failed",
+      "statusDetails" : "The system cannot find the path specified",
+      "time" : {
+        "start" : 1651061163607,
+        "stop" : 1651061191996,
+        "duration" : 28389
+      }
+    } ]
+  },
+  "49262fd87c672582cd956f3e8bce860c" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "581fbb1c1e9a335c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624370062092,
+        "stop" : 1624370077729,
+        "duration" : 15637
+      }
+    }, {
+      "uid" : "4ad449281f7d1083",
+      "status" : "failed",
+      "statusDetails" : "Lambda expression in com.snapbytes.snaptest.web.WebSteps: expected see \"New Window\" in page but was \"Opening a new window\nClick Here\nPowered by Elemental Selenium\" within 20 seconds.",
+      "time" : {
+        "start" : 1624369878489,
+        "stop" : 1624369919375,
+        "duration" : 40886
+      }
+    }, {
+      "uid" : "d893fc9d986450b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624369827998,
+        "stop" : 1624369851722,
+        "duration" : 23724
+      }
+    }, {
+      "uid" : "3cefa7458158b0b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624369789080,
+        "stop" : 1624369799892,
+        "duration" : 10812
+      }
+    }, {
+      "uid" : "259bfe013fbcd651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624368234055,
+        "stop" : 1624368250212,
+        "duration" : 16157
+      }
+    } ]
+  },
+  "81c40426f313ef4f11bfb528a2dfed91" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "7a225a06e860bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654519006447,
+        "stop" : 1654519025497,
+        "duration" : 19050
+      }
+    }, {
+      "uid" : "d0189887ee9d3f41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654519006447,
+        "stop" : 1654519025497,
+        "duration" : 19050
+      }
+    }, {
+      "uid" : "102570ec7d11410b",
+      "status" : "failed",
+      "statusDetails" : "a.a.a.a.v: Error HTTP 404 executing GET http://npm.taobao.org/mirrors/geckodriver HTTP/1.1",
+      "time" : {
+        "start" : 1654513852243,
+        "stop" : 1654513869526,
+        "duration" : 17283
+      }
+    } ]
+  },
+  "9ab34ce75f99aa63751e203d41352e40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 7,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "ad9673c084e767d3",
+      "status" : "unknown",
+      "statusDetails" : "gherkin.ParserException$CompositeParserException: Parser errors:\n(3:3): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Background:'\n(4:5): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Given I open browser'",
+      "time" : {
+        "start" : 1638259676299,
+        "stop" : 1638259676301,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "46573ae12d9c2749",
+      "status" : "unknown",
+      "statusDetails" : "gherkin.ParserException$CompositeParserException: Parser errors:\n(3:3): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Background:'\n(4:5): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Given I open browser'",
+      "time" : {
+        "start" : 1638259676299,
+        "stop" : 1638259676301,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "4d03ab3468d46204",
+      "status" : "unknown",
+      "statusDetails" : "gherkin.ParserException$CompositeParserException: Parser errors:\n(3:3): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Background:'\n(4:5): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Given I open browser'",
+      "time" : {
+        "start" : 1638259676299,
+        "stop" : 1638259676301,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "eaaefc1060e23884",
+      "status" : "unknown",
+      "statusDetails" : "gherkin.ParserException$CompositeParserException: Parser errors:\n(3:3): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Background:'\n(4:5): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Given I open browser'",
+      "time" : {
+        "start" : 1638259543312,
+        "stop" : 1638259543314,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "6076ee6d0a34319b",
+      "status" : "unknown",
+      "statusDetails" : "gherkin.ParserException$CompositeParserException: Parser errors:\n(3:3): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Background:'\n(4:5): expected: #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Given I open browser'",
+      "time" : {
+        "start" : 1638259392272,
+        "stop" : 1638259392272,
+        "duration" : 0
+      }
+    } ]
+  },
+  "475f60b97c9974585feb6e8be7149dc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "be3b11094651fcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669360855320,
+        "stop" : 1669360862578,
+        "duration" : 7258
+      }
+    }, {
+      "uid" : "72541ec6b6c6699b",
+      "status" : "failed",
+      "statusDetails" : "Page [sauceUrl] is not configured",
+      "time" : {
+        "start" : 1669359543488,
+        "stop" : 1669359550042,
+        "duration" : 6554
+      }
+    } ]
+  },
+  "546d6ecee0a668e20f44af6af27334de" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "f7ed763a73dd8f8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654690523415,
+        "stop" : 1654690543485,
+        "duration" : 20070
+      }
+    }, {
+      "uid" : "2e170e1c40601e0d",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: timeout during url change after 20000 ms.\nexpected url: https://www.saucedemo.com/ \nactual url: https://www.saucedemo.com/inventory.html (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NTS5CG608613Z', ip: '10.253.209.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1654690405476,
+        "stop" : 1654690446684,
+        "duration" : 41208
+      }
+    }, {
+      "uid" : "6d60504f31778cdb",
+      "status" : "failed",
+      "statusDetails" : "Lambda expression in com.snapbytes.snaptest.web.WebSteps: expected not null but was null within 15 seconds.",
+      "time" : {
+        "start" : 1654690230774,
+        "stop" : 1654690272110,
+        "duration" : 41336
+      }
+    }, {
+      "uid" : "979a9908b44b6b08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654689424545,
+        "stop" : 1654689439297,
+        "duration" : 14752
+      }
+    }, {
+      "uid" : "aa7a17cb1a7c8058",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: usernameTextbox (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1654689376023,
+        "stop" : 1654689400704,
+        "duration" : 24681
+      }
+    } ]
+  },
+  "1f6d3d30e1dc9bb6166d98fe94e87880" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "902422e641e7cd09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663924724647,
+        "stop" : 1663924744059,
+        "duration" : 19412
+      }
+    }, {
+      "uid" : "41a9d9653783fad7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663924578829,
+        "stop" : 1663924597607,
+        "duration" : 18778
+      }
+    }, {
+      "uid" : "222d6eff1dac345e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663924513051,
+        "stop" : 1663924523764,
+        "duration" : 10713
+      }
+    } ]
+  },
+  "a733dea504e9b1308f5b29ff995ffc16" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "35e264bfb9a9b1e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654693579182,
+        "stop" : 1654693613251,
+        "duration" : 34069
+      }
+    }, {
+      "uid" : "753c26973e136a81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654691019021,
+        "stop" : 1654691046028,
+        "duration" : 27007
+      }
+    } ]
+  },
+  "87ac0e56e15fdc8256793aa81fd1cc98" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "1198450fe1270540",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654523459813,
+        "stop" : 1654523477995,
+        "duration" : 18182
+      }
+    }, {
+      "uid" : "23fb6b464bea90e7",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: timeout during url change after 20000 ms.\nexpected url: https://www.saucedemo.com//inventory.html \nactual url: https://www.saucedemo.com/inventory.html (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NTS5CG608613Z', ip: '10.253.209.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1654523389536,
+        "stop" : 1654523426035,
+        "duration" : 36499
+      }
+    }, {
+      "uid" : "98c07b401e63e7fd",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: timeout during url change after 20000 ms.\nexpected url: https://www.saucedemo.com/ \nactual url: https://www.saucedemo.com/inventory.html (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NTS5CG608613Z', ip: '10.253.209.90', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1654523216494,
+        "stop" : 1654523254656,
+        "duration" : 38162
+      }
+    } ]
+  },
+  "1a6081bae12e31771cfbf03fad039cbd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ebfa0c2b78ce3f9",
+      "status" : "failed",
+      "statusDetails" : "no user interface defined. Please 'open browser', 'run mobile application', or 'start program' \nExpected: not null\n     but: was null",
+      "time" : {
+        "start" : 1663923369848,
+        "stop" : 1663923369990,
+        "duration" : 142
+      }
+    } ]
+  },
+  "f9132d6427fdff8d8e5daaacb90ebbcf" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "160c2c8171f16688",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638259969807,
+        "stop" : 1638259993661,
+        "duration" : 23854
+      }
+    }, {
+      "uid" : "5bd1f21c46ce6d21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638259871621,
+        "stop" : 1638259898001,
+        "duration" : 26380
+      }
+    }, {
+      "uid" : "cbb50df44f9f0bce",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: timeout during url change after 20000 ms.\nexpected url: http://the-internet.herokuapp.com \nactual url: http://the-internet.herokuapp.com/ (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NTS5CG608613Z', ip: '10.253.86.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1638259736376,
+        "stop" : 1638259772082,
+        "duration" : 35706
+      }
+    }, {
+      "uid" : "4adf163f78aee70f",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: timeout during url change after 20000 ms.\nexpected url: http://the-internet.herokuapp.com \nactual url: http://the-internet.herokuapp.com/ (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NTS5CG608613Z', ip: '10.253.86.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1638259638777,
+        "stop" : 1638259674140,
+        "duration" : 35363
+      }
+    }, {
+      "uid" : "c883faf850674d03",
+      "status" : "failed",
+      "statusDetails" : "Expected condition failed: timeout during url change after 20000 ms.\nexpected url: http://the-internet.herokuapp.com//checkboxes \nactual url: http://the-internet.herokuapp.com/checkboxes (tried for 20 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'NTS5CG608613Z', ip: '10.253.86.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1638259496927,
+        "stop" : 1638259541072,
+        "duration" : 44145
+      }
+    } ]
+  }
+}

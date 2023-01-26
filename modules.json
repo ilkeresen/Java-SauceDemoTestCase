@@ -1,0 +1,16 @@
+{
+  "soapClient":false,
+  "cqlClient":false,
+  "mobileClient":true,
+  "webClient":true,
+  "winClient":false,
+  "language":"en",
+  "lib":false,
+  "sqlClient":true,
+  "restClient":true,
+  "cxfVersion":null,
+  "stepsPackages": [
+    "steps",
+    "model"
+  ]
+}

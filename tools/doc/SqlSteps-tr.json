@@ -1,0 +1,1 @@
+{"moduleName":"SqlSteps","language":"tr","steps":[{"pattern":"^([\\pL\\d]+(?: [\\pL\\d]+)*) sql cümlesini bu parametrelerle çalıştırırsam:$","document":"","argumentType":"Table"},{"pattern":"^([\\pL\\d]+(?: [\\pL\\d]+)*) sql cümlesini çalıştırırsam$","document":""},{"pattern":"^([\\pL\\d]+(?: [\\pL\\d]+)*) veritabanına geçersem$","document":""}]}

@@ -1,0 +1,16 @@
+{
+  "baseUrlKey": "tryTestingThisUrl",
+  "uriPath": "",
+  "loadTimeout": 30,
+  "elements": {
+    "user name textbox area": "//input[@id='user-name']",
+    "password textbox area": "//input[@id='password']",
+    "firstname text area": "//input[@id='fname']",
+    "lastname text area": "//input[@name='lname']",
+    "gender type for female": "//input[@value='female' and @id='female']",
+    "select option dropdown list": "//select[@id='option']",
+    "dropdown list option one": "//select[@id='option']/child::option[contains(text(),'n 1')]",
+    "multiple option two": "//select[@id='owc']/child::option[@value='option 2']",
+    "multiple option three": "//select[@id='owc']/child::option[@value='option 3']"
+  }
+}

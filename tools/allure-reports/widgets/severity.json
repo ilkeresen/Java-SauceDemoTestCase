@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8e55d3b7c88c00d0",
+  "name" : "True Login Scenario",
+  "time" : {
+    "start" : 1674438473046,
+    "stop" : 1674438500151,
+    "duration" : 27105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

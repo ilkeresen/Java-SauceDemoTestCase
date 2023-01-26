@@ -1,0 +1,97 @@
+2023-01-23 04:47:53 DEBUG c.r.CustomSummaryPrinter.a:51 - Hook called: type before location CommonSteps.beforeScenario()
+2023-01-23 04:47:53 DEBUG c.s.s.s.DictionaryService.f:172 - No properties file in [/dictionary/SauceDemoHome.properties]
+2023-01-23 04:47:53 DEBUG c.s.s.s.DictionaryService.f:172 - No properties file in [/dictionary/True_Login_Scenario.properties]
+2023-01-23 04:47:53 DEBUG c.r.CustomSummaryPrinter.a:51 - Hook called: type before location DictionaryService.beforeScenario(Scenario)
+2023-01-23 04:47:53 INFO  c.s.s.s.TestContext.beforeScenario:49 - [1] > Scenario [True Login Scenario] started
+
+2023-01-23 04:47:53 DEBUG c.r.CustomSummaryPrinter.a:51 - Hook called: type before location TestContext.beforeScenario(Scenario)
+2023-01-23 04:47:53 DEBUG c.r.CustomSummaryPrinter.a:51 - Hook called: type before location WebSteps.beforeScenario(Scenario)
+2023-01-23 04:47:53 DEBUG c.r.CustomSummaryPrinter.a:51 - Hook called: type before location k.beforeScenario(Scenario)
+2023-01-23 04:47:53 INFO  c.s.s.w.c.d:288 - Creating profile default for Scenario True Login Scenario
+2023-01-23 04:47:53 DEBUG c.s.s.w.c.a:273 - user-data-dir=C:\Users\Ýlker ESEN\workspace\bootcampn\build\profile\True_Login_Scenario-default-dab1cd5d_8963_4fa2_b4f8_2e6e58fca869
+2023-01-23 04:47:53 DEBUG a.a.a.a.p.b:118 - Preference chrome=109 (valid until 2023-01-24 03:50:41)
+2023-01-23 04:47:53 DEBUG a.a.a.a.p.b:118 - Preference chrome109=109.0.5414.74 (valid until 2023-01-24 03:50:41)
+2023-01-23 04:47:53 INFO  a.a.a.a.u.D:615 - Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+2023-01-23 04:47:53 DEBUG a.a.a.a.u.a:564 - Driver chromedriver 109.0.5414.74 found in cache
+2023-01-23 04:47:53 INFO  a.a.a.a.u.h:1116 - Resulting binary C:\Users\Ýlker ESEN\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
+2023-01-23 04:47:53 DEBUG c.s.s.w.c.c:382 - Created chromedriver log dir
+2023-01-23 04:47:56 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I open browser
+2023-01-23 04:47:56 DEBUG c.s.s.s.ConfigManager.a:1093 - config url: file:/C:/Users/Ýlker%20ESEN/workspace/bootcampn/build/resources/test/config/pages/SauceDemoHome.json
+2023-01-23 04:47:56 DEBUG c.s.s.s.ConfigManager.a:1093 - config url: file:/C:/Users/Ýlker%20ESEN/workspace/bootcampn/build/resources/test/config/pages/TryTestingThisHome.json
+2023-01-23 04:47:56 DEBUG c.s.s.s.ConfigManager.a:1093 - config url: file:/C:/Users/Ýlker%20ESEN/workspace/bootcampn/build/resources/test/config/pages/SwaglabsMain.json
+2023-01-23 04:47:56 DEBUG c.s.s.s.ConfigManager.a:1093 - config url: file:/C:/Users/Ýlker%20ESEN/workspace/bootcampn/build/resources/test/config/pages/AutomationExerciseMain.json
+2023-01-23 04:47:56 DEBUG c.s.s.s.ConfigManager.a:1093 - config url: file:/C:/Users/Ýlker%20ESEN/workspace/bootcampn/build/resources/test/config/pages/SwaglabsLogin.json
+2023-01-23 04:47:56 DEBUG c.s.s.p.Page.navigate:78 - Navigating to page SauceDemoHome with url https://www.saucedemo.com/
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.c:134 - Page connection started.
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.a:97 - waiting for url [trial 1]
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.b:115 - current url: https://www.saucedemo.com/
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.c:144 - Page loading started
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.c:154 - Page load complete
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.c:159 - Page document ready
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.c:164 - Page jquery complete
+2023-01-23 04:47:59 INFO  c.s.s.w.WebSteps.a:174 - set default element timeout=10 seconds
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:47:59 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I open SauceDemoHome page
+2023-01-23 04:47:59 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see user name textbox area element
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:47:59 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click user name textbox area
+2023-01-23 04:47:59 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I type "standard_user"
+2023-01-23 04:47:59 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see password textbox area element
+2023-01-23 04:47:59 DEBUG c.s.s.w.WebSteps.fill:514 - Filling element password textbox area:secret_sauce
+2023-01-23 04:47:59 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:00 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:00 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I fill:
+2023-01-23 04:48:00 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see login button area element
+2023-01-23 04:48:00 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:00 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click login button area
+2023-01-23 04:48:00 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see add to cart button area element
+2023-01-23 04:48:00 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:00 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click add to cart button area
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click basket button area element
+2023-01-23 04:48:01 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click basket button area
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click remove button area element
+2023-01-23 04:48:01 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click remove button area
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click all items button area element
+2023-01-23 04:48:01 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click all items button area
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see add to cart button area element
+2023-01-23 04:48:02 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click add to cart button area
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click basket button area element
+2023-01-23 04:48:02 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click basket button area
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click checkout button area element
+2023-01-23 04:48:02 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click checkout button area
+2023-01-23 04:48:02 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click first name textbox area
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I want to write randomFirstName
+2023-01-23 04:48:05 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I wait for 3 seconds
+2023-01-23 04:48:05 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:05 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click last name textbox area
+2023-01-23 04:48:06 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I want to write randomLastName Api
+2023-01-23 04:48:09 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I wait for 3 seconds
+2023-01-23 04:48:09 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:09 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click postal code name textbox area
+2023-01-23 04:48:09 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I want to write randomIntegerCode
+2023-01-23 04:48:12 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I wait for 3 seconds
+2023-01-23 04:48:12 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click continue button area element
+2023-01-23 04:48:13 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:13 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click continue button area
+2023-01-23 04:48:13 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click finish button area element
+2023-01-23 04:48:13 DEBUG c.s.s.p.Page.a:176 - jQuery.active = 0
+2023-01-23 04:48:13 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click finish button area
+2023-01-23 04:48:13 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see finish complate message area element
+2023-01-23 04:48:18 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I wait for 5 seconds
+2023-01-23 04:48:18 INFO  c.s.s.s.TestContext.afterScenario:63 - [1] > Scenario [True Login Scenario] finished successfully
+2023-01-23 04:48:18 INFO  c.s.s.s.TestContext.afterScenario:64 - 0 of 1 scenarios failed so far
+2023-01-23 04:48:18 DEBUG c.r.CustomSummaryPrinter.a:51 - Hook called: type after location TestContext.afterScenario(Scenario)
+2023-01-23 04:48:18 DEBUG c.r.CustomSummaryPrinter.a:51 - Hook called: type after location c.prepareProfilesToDispose(Scenario)
+2023-01-23 04:48:18 DEBUG c.r.CustomSummaryPrinter.a:51 - Hook called: type after location k.prepareDeviceToRelease(Scenario)
+2023-01-23 04:48:18 DEBUG c.s.s.w.f.a:79 - Attempting to quit the driver
+2023-01-23 04:48:20 DEBUG c.s.s.w.f.a:81 - Driver quit successfully
+2023-01-23 04:48:20 DEBUG c.r.CustomSummaryPrinter.a:51 - Hook called: type after location c.disposeProfilesAfterScenario()
+2023-01-23 04:48:20 DEBUG c.r.CustomSummaryPrinter.a:51 - Hook called: type after location k.releaseDeviceAfterScenario()

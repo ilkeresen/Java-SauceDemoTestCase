@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "localhost",
+    "children" : [ {
+      "name" : "7684@DESKTOP-JSCTA9J.Test worker(11)",
+      "children" : [ {
+        "name" : "True Login Scenario",
+        "uid" : "8e55d3b7c88c00d0",
+        "parentUid" : "9ff33144fd8d0328fc2132d69567f1f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674438473046,
+          "stop" : 1674438500151,
+          "duration" : 27105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ff33144fd8d0328fc2132d69567f1f4"
+    } ],
+    "uid" : "be30f600e0434356d35178c8efd2dc81"
+  } ]
+}

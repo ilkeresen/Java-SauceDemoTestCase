@@ -1,0 +1,1 @@
+{"moduleName":"RestClientSteps","language":"tr","steps":[{"pattern":"^([\\pL\\d]+(?: [\\pL\\d]+)*) rest servisini bu parametrelerle çalıştırırsam:$","document":"","argumentType":"Table"},{"pattern":"^([\\pL\\d]+(?: [\\pL\\d]+)*) rest servisini çalıştırırsam$","document":""},{"pattern":"^cevap durum kodu (\\d+) olur$","document":""}]}

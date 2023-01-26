@@ -1,0 +1,8 @@
+{
+  "baseUrlKey": "reqresUrl",
+  "uriPath": "/api/users/23",
+  "method": "GET",
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}

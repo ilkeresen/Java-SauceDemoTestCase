@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="src/test/resources/features/SauceDemoHome.feature" skipped="0" tests="1" time="27.135164" timestamp="2023-01-23T04:47:52.694">
+<testcase classname="Main Feature" name="True Login Scenario" time="27.135164">
+<system-out><![CDATA[Given I open browser........................................................passed
+Given I open SauceDemoHome page.............................................passed
+When I see user name textbox area element...................................passed
+And I click user name textbox area..........................................passed
+And I type "standard_user"..................................................passed
+When I see password textbox area element....................................passed
+Then I fill:................................................................passed
+When I see login button area element........................................passed
+Then I click login button area..............................................passed
+When I see add to cart button area element..................................passed
+Then I click add to cart button area........................................passed
+When I see click basket button area element.................................passed
+Then I click click basket button area.......................................passed
+When I see click remove button area element.................................passed
+Then I click click remove button area.......................................passed
+When I see click all items button area element..............................passed
+Then I click click all items button area....................................passed
+When I see add to cart button area element..................................passed
+Then I click add to cart button area........................................passed
+When I see click basket button area element.................................passed
+Then I click click basket button area.......................................passed
+When I see click checkout button area element...............................passed
+Then I click click checkout button area.....................................passed
+And I click first name textbox area.........................................passed
+And I want to write randomFirstName.........................................passed
+When I wait for 3 seconds...................................................passed
+And I click last name textbox area..........................................passed
+And I want to write randomLastName Api......................................passed
+When I wait for 3 seconds...................................................passed
+And I click postal code name textbox area...................................passed
+And I want to write randomIntegerCode.......................................passed
+When I wait for 3 seconds...................................................passed
+When I see click continue button area element...............................passed
+Then I click click continue button area.....................................passed
+When I see click finish button area element.................................passed
+Then I click click finish button area.......................................passed
+When I see finish complate message area element.............................passed
+When I wait for 5 seconds...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

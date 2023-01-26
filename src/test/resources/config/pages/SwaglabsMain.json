@@ -1,0 +1,10 @@
+{
+  "baseUrlKey": "sauceUrl",
+  "uriPath": "inventory.html",
+  "elements": {
+    "swaglabs main page verify text": "//span[text()='Products']",
+    "alternative swaglabs main page verify text": "//span[contains(text(),'Prod')]",
+    "product list for backpack": "//button[@id='add-to-cart-sauce-labs-backpack']",
+    "shopping cart button": "//a[@class='shopping_cart_link']"
+  }
+}

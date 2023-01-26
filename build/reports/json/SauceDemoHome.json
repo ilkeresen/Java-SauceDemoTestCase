@@ -1,0 +1,793 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3671954800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser",
+            "match": {
+              "location": "WebStepsProxy.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2481314300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open SauceDemoHome page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SauceDemoHome",
+                  "offset": 7
+                }
+              ],
+              "location": "WebStepsProxy.openPage(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5636100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2115500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DictionaryService.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 8292600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestContext.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 17382200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WebSteps.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 538000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "k.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "True Login Scenario",
+        "description": "",
+        "id": "main-feature;true-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 5359200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestContext.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 352500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "c.prepareProfilesToDispose(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1053200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "k.prepareDeviceToRelease(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1847998700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "c.disposeProfilesAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 510900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "k.releaseDeviceAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146677200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I see user name textbox area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user name textbox area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173147800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click user name textbox area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user name textbox area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123796600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I type \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 7
+                }
+              ],
+              "location": "CommonUiStepsProxy.typeText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92267300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I see password textbox area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password textbox area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 280204800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I fill:",
+            "match": {
+              "location": "CommonUiStepsProxy.fill(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password textbox area",
+                  "secret_sauce"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 97944500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I see login button area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login button area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 314994000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click login button area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login button area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118056300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I see add to cart button area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add to cart button area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294724800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click add to cart button area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add to cart button area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 242788300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I see click basket button area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click basket button area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 228096600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click click basket button area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click basket button area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119494000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I see click remove button area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click remove button area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120222500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click click remove button area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click remove button area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87186200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I see click all items button area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click all items button area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175884100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click click all items button area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click all items button area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84394300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I see add to cart button area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add to cart button area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188154700,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click add to cart button area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add to cart button area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103271200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I see click basket button area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click basket button area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114340700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click click basket button area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click basket button area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84909500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I see click checkout button area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click checkout button area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128704700,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click click checkout button area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click checkout button area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 121697900,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I click first name textbox area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "first name textbox area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95607200,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I want to write randomFirstName",
+            "match": {
+              "location": "MySteps.randomFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3003102400,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "CommonStepsProxy.waitForNSeconds(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109989000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click last name textbox area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "last name textbox area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 653499100,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I want to write randomLastName Api",
+            "match": {
+              "location": "MySteps.randomLastNameApis()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000328000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "CommonStepsProxy.waitForNSeconds(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133285100,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click postal code name textbox area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "postal code name textbox area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78514900,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I want to write randomIntegerCode",
+            "match": {
+              "location": "MySteps.randomIntegerCode$()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000693500,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                }
+              ],
+              "location": "CommonStepsProxy.waitForNSeconds(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67305900,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I see click continue button area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click continue button area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120539800,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click click continue button area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click continue button area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67786600,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I see click finish button area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click finish button area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102039200,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click click finish button area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "click finish button area",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonUiStepsProxy.clickElement(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63109900,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I see finish complate message area element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "finish complate message area",
+                  "offset": 6
+                }
+              ],
+              "location": "CommonUiStepsProxy.seeElement(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000778600,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "CommonStepsProxy.waitForNSeconds(int)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ilker"
+          }
+        ]
+      }
+    ],
+    "name": "Main Feature",
+    "description": "",
+    "id": "main-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/SauceDemoHome.feature",
+    "tags": []
+  }
+]

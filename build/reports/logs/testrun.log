@@ -1,0 +1,30 @@
+2023-01-23 04:47:51 INFO  c.s.s.t.CucumberTestNG.<clinit>:27 - Running snaptest (8d212f1) 1.2.98
+2023-01-23 04:47:51 DEBUG c.s.s.t.CucumberTestNG.<init>:102 - featureFile=AutomationExercise.feature, tags=(@ilker) and not @ignore, glue=[steps, model, com.snapbytes.snaptest.step, com.snapbytes.snaptest.lang.en, com.snapbytes.snaptest.service, com.snapbytes.snaptest.processor, com.snapbytes.snaptest.web, com.snapbytes.snaptest.ui, com.snapbytes.snaptest.rest, com.snapbytes.snaptest.mobile, com.snapbytes.snaptest.sql], plugins=null, dryRun=false
+2023-01-23 04:47:51 DEBUG c.s.s.t.CucumberTestNG.<init>:102 - featureFile=SauceDemoHome.feature, tags=(@ilker) and not @ignore, glue=[steps, model, com.snapbytes.snaptest.step, com.snapbytes.snaptest.lang.en, com.snapbytes.snaptest.service, com.snapbytes.snaptest.processor, com.snapbytes.snaptest.web, com.snapbytes.snaptest.ui, com.snapbytes.snaptest.rest, com.snapbytes.snaptest.mobile, com.snapbytes.snaptest.sql], plugins=null, dryRun=false
+2023-01-23 04:47:51 DEBUG c.s.s.t.CucumberTestNG.<init>:102 - featureFile=Swaglabs.feature, tags=(@ilker) and not @ignore, glue=[steps, model, com.snapbytes.snaptest.step, com.snapbytes.snaptest.lang.en, com.snapbytes.snaptest.service, com.snapbytes.snaptest.processor, com.snapbytes.snaptest.web, com.snapbytes.snaptest.ui, com.snapbytes.snaptest.rest, com.snapbytes.snaptest.mobile, com.snapbytes.snaptest.sql], plugins=null, dryRun=false
+2023-01-23 04:47:51 DEBUG c.s.s.t.CucumberTestNG.<init>:102 - featureFile=TryTestingThisHome.feature, tags=(@ilker) and not @ignore, glue=[steps, model, com.snapbytes.snaptest.step, com.snapbytes.snaptest.lang.en, com.snapbytes.snaptest.service, com.snapbytes.snaptest.processor, com.snapbytes.snaptest.web, com.snapbytes.snaptest.ui, com.snapbytes.snaptest.rest, com.snapbytes.snaptest.mobile, com.snapbytes.snaptest.sql], plugins=null, dryRun=false
+2023-01-23 04:47:52 DEBUG c.s.s.s.DictionaryService.registerClass:370 - registering model.Users
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.class=class,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.fullName=full name,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.lowercaseUsername=lowercase username,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.msisdn=msisdn,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.password=password,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.uppercaseUsername=uppercase username,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.username=username,
+2023-01-23 04:47:52 DEBUG c.s.s.s.DictionaryService.d:376 - registered model.Users
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.class=class,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.fullName=full name,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.lowercaseUsername=lowercase username,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.msisdn=msisdn,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.password=password,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.uppercaseUsername=uppercase username,
+2023-01-23 04:47:52 DEBUG c.s.s.s.RegisteredClass.a:56 - model.Users.username=username,
+2023-01-23 04:47:52 DEBUG c.s.s.s.DictionaryService.f:172 - No properties file in [/dictionary/common.properties]
+2023-01-23 04:47:52 DEBUG c.s.s.s.ConfigManager.a:1093 - config url: file:/C:/Users/Ýlker%20ESEN/workspace/bootcampn/build/resources/test/config/environments/dev.json
+2023-01-23 04:47:52 INFO  c.s.s.s.TestRunManager.start:47 - Initializing...
+2023-01-23 04:47:52 INFO  c.s.s.m.k.start:62 - Using default appium url 'http://127.0.0.1:4723/wd/hub'
+2023-01-23 04:47:52 INFO  c.s.s.s.TestRunManager.start:51 - Initialization complete.
+2023-01-23 04:47:53 DEBUG c.s.s.t.TestB4Reporter.a:108 - threadName=src/test/resources/features/SauceDemoHome-24
+2023-01-23 04:48:20 INFO  c.s.s.s.TestRunManager.run:71 - Finalizing...
+2023-01-23 04:48:20 DEBUG c.s.s.m.l.b:86 - created build/reports/metrics/device_usage_metrics.csv
+2023-01-23 04:48:20 INFO  c.s.s.s.TestRunManager.run:73 - Finalized.

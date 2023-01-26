@@ -1,0 +1,22 @@
+{
+  "baseUrlKey": "sauceDemoUrl",
+  "uriPath": "",
+  "loadTimeout": 30,
+  "elements": {
+    "user name textbox area": "//input[@id='user-name']",
+    "password textbox area": "//input[@id='password']",
+    "login button area": "//input[@id='login-button']",
+    "login error message area": "//div[@class='error-message-container error']/child::h3[@data-test='error']",
+    "add to cart button area": "//button[@id='add-to-cart-sauce-labs-backpack']",
+    "click basket button area": "//a[@class='shopping_cart_link']",
+    "click remove button area": "//button[@id='remove-sauce-labs-backpack']",
+    "click all items button area": "//button[@id='continue-shopping']",
+    "click checkout button area": "//button[@id='checkout']",
+    "first name textbox area": "//input[@id='first-name']",
+    "last name textbox area": "//input[@id='last-name']",
+    "postal code name textbox area": "//input[@id='postal-code']",
+    "click continue button area": "//input[@id='continue']",
+    "click finish button area": "//button[@id='finish']",
+    "finish complate message area": "//h2[@class='complete-header']"
+  }
+}

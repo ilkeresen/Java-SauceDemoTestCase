@@ -1,0 +1,8 @@
+{
+  "baseUrlKey": "autoExerciseUrl",
+  "uriPath": "/api/productList",
+  "method": "GET",
+  "header": {
+    "Content-Type": "text/html"
+  }
+}

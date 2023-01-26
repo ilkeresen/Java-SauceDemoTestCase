@@ -1,0 +1,1 @@
+{"moduleName":"SqlSteps","language":"en","steps":[{"pattern":"^(?:I )?execute (\\w+(?: \\w+)*) sql with parameters:$","document":"","argumentType":"Table"},{"pattern":"^(?:I )?execute (\\w+(?: \\w+)*) sql$","document":""},{"pattern":"^(?:I )?switch to (\\w+(?: \\w+)*) database","document":""}]}

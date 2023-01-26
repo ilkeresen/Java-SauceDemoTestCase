@@ -1,0 +1,5 @@
+{
+  "baseUrlKey": "reqresUrl",
+  "uriPath": "/api/users/2",
+  "method": "GET"
+}

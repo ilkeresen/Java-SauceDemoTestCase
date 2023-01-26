@@ -1,0 +1,12 @@
+.side-nav__brand {
+  background: url('logo-snapbytes.png')
+  no-repeat
+  left center
+  !important;
+
+  background-size: contain !important;
+}
+.side-nav {
+  padding-right: 5px;
+  width: 100%;
+}

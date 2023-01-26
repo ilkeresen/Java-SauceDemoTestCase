@@ -1,0 +1,1 @@
+{"moduleName":"RestClientSteps","language":"en","steps":[{"pattern":"^I call (\\w+(?: \\w+)*) rest service with parameters:$","document":"","argumentType":"Table"},{"pattern":"^I call (\\w+(?: \\w+)*) rest service$","document":""},{"pattern":"^response status code is (\\d+)$","document":""}]}

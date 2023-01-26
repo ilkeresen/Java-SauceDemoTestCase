@@ -1,0 +1,1 @@
+select * from(select * from bootcamp.gsm where name like 'nazife' and gsm_no like '535') where rownum=1

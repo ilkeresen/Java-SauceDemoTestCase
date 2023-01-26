@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name='Features' verbose='1' parallel='none' thread-count='1'>
+  <test name='AutomationExercise'>
+    <parameter name='featureFile' value='AutomationExercise.feature' />
+    <classes>
+      <class name='com.snapbytes.snaptest.testng.FeatureTestFactory' />
+    </classes>
+  </test>
+  <test name='SauceDemoHome'>
+    <parameter name='featureFile' value='SauceDemoHome.feature' />
+    <classes>
+      <class name='com.snapbytes.snaptest.testng.FeatureTestFactory' />
+    </classes>
+  </test>
+  <test name='Swaglabs'>
+    <parameter name='featureFile' value='Swaglabs.feature' />
+    <classes>
+      <class name='com.snapbytes.snaptest.testng.FeatureTestFactory' />
+    </classes>
+  </test>
+  <test name='TryTestingThisHome'>
+    <parameter name='featureFile' value='TryTestingThisHome.feature' />
+    <classes>
+      <class name='com.snapbytes.snaptest.testng.FeatureTestFactory' />
+    </classes>
+  </test>
+</suite>

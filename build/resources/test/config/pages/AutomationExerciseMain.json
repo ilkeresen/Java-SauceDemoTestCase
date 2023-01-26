@@ -1,0 +1,15 @@
+{
+  "baseUrlKey": "autoExerciseUrl",
+  "uriPath": "",
+  "elements": {
+    "main control text": "//a[@style='color: orange;']",
+    "product button": "//a[@href='/products']",
+    "all product verify text": "//h2[text()='All Products']",
+    "search product": "//input[@id='search_product']",
+    "search button": "//button[@id='submit_search']",
+    "searched products verify text": "//h2[text()='Searched Products']",
+    "add to cart for first product": "//div[@class='product-overlay']/descendant-or-self::a[@data-product-id='3']",
+    "view cart button": "//u[text()='View Cart']",
+    "verify shopping cart": "//a[text()='Sleeveless Dress']"
+  }
+}

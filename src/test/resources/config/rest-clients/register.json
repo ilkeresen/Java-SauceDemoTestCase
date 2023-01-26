@@ -1,0 +1,6 @@
+{
+  "baseUrlKey": "reqres",
+  "uriPath": "api/register",
+  "method": "POST",
+  "defaultBodyTemplateJson": "register post"
+}

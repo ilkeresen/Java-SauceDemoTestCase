@@ -1,0 +1,14 @@
+{
+  "baseUrls": {
+    "sauceDemoUrl": "https://www.saucedemo.com/"
+  },
+  "web": {
+    "browsers": {
+      "default": {
+        "type": "chrome"
+      }
+    },
+    "pageLoadTimeout": 30,
+    "elementTimeout": 10
+  }
+}

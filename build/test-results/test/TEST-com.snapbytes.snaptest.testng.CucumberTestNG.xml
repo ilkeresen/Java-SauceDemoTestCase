@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.snapbytes.snaptest.testng.CucumberTestNG" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-23T01:47:52" hostname="DESKTOP-JSCTA9J" time="27.55">
+  <properties/>
+  <testcase name="Scenario[0](&quot;True Login Scenario&quot;)" classname="com.snapbytes.snaptest.testng.CucumberTestNG" time="27.55"/>
+  <system-out><![CDATA[2023-01-23 04:47:52 INFO  c.s.s.s.TestRunManager.start:47 - Initializing...
+2023-01-23 04:47:52 INFO  c.s.s.m.k.start:62 - Using default appium url 'http://127.0.0.1:4723/wd/hub'
+2023-01-23 04:47:52 INFO  c.s.s.s.TestRunManager.start:51 - Initialization complete.
+2023-01-23 04:47:53 INFO  c.s.s.s.TestContext.beforeScenario:49 - [1] > Scenario [True Login Scenario] started
+
+2023-01-23 04:47:53 INFO  c.s.s.w.c.d:288 - Creating profile default for Scenario True Login Scenario
+2023-01-23 04:47:53 INFO  a.a.a.a.u.D:615 - Using chromedriver 109.0.5414.74 (since Google Chrome 109 is installed in your machine)
+2023-01-23 04:47:53 INFO  a.a.a.a.u.h:1116 - Resulting binary C:\Users\İlker ESEN\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
+2023-01-23 04:47:56 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I open browser
+2023-01-23 04:47:59 INFO  c.s.s.w.WebSteps.a:174 - set default element timeout=10 seconds
+2023-01-23 04:47:59 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I open SauceDemoHome page
+2023-01-23 04:47:59 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see user name textbox area element
+2023-01-23 04:47:59 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click user name textbox area
+2023-01-23 04:47:59 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I type "standard_user"
+2023-01-23 04:47:59 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see password textbox area element
+2023-01-23 04:48:00 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I fill:
+2023-01-23 04:48:00 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see login button area element
+2023-01-23 04:48:00 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click login button area
+2023-01-23 04:48:00 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see add to cart button area element
+2023-01-23 04:48:00 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click add to cart button area
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click basket button area element
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click basket button area
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click remove button area element
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click remove button area
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click all items button area element
+2023-01-23 04:48:01 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click all items button area
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see add to cart button area element
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click add to cart button area
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click basket button area element
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click basket button area
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click checkout button area element
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click checkout button area
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click first name textbox area
+2023-01-23 04:48:02 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I want to write randomFirstName
+2023-01-23 04:48:05 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I wait for 3 seconds
+2023-01-23 04:48:05 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click last name textbox area
+
+Sending 'GET' request to URL : https://names.drycodes.com/1?nameOptions=boy_names
+Response Code : 200
+2023-01-23 04:48:06 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I want to write randomLastName Api
+2023-01-23 04:48:09 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I wait for 3 seconds
+2023-01-23 04:48:09 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click postal code name textbox area
+2023-01-23 04:48:09 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I want to write randomIntegerCode
+2023-01-23 04:48:12 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I wait for 3 seconds
+2023-01-23 04:48:12 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click continue button area element
+2023-01-23 04:48:13 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click continue button area
+2023-01-23 04:48:13 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see click finish button area element
+2023-01-23 04:48:13 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I click click finish button area
+2023-01-23 04:48:13 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I see finish complate message area element
+2023-01-23 04:48:18 INFO  c.r.CustomSummaryPrinter.a:47 - Step finished with status Passed: I wait for 5 seconds
+2023-01-23 04:48:18 INFO  c.s.s.s.TestContext.afterScenario:63 - [1] > Scenario [True Login Scenario] finished successfully
+2023-01-23 04:48:18 INFO  c.s.s.s.TestContext.afterScenario:64 - 0 of 1 scenarios failed so far
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 3182
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 23, 2023 4:47:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

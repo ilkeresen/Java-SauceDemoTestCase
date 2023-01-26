@@ -1,0 +1,849 @@
+{
+  "uid" : "8e55d3b7c88c00d0",
+  "name" : "True Login Scenario",
+  "fullName" : "Main Feature: True Login Scenario",
+  "historyId" : "f243c6f443b46f0b29ce28e065a39579",
+  "time" : {
+    "start" : 1674438473046,
+    "stop" : 1674438500151,
+    "duration" : 27105
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "CommonSteps.beforeScenario()",
+    "time" : {
+      "start" : 1674438473064,
+      "stop" : 1674438473070,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "DictionaryService.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1674438473078,
+      "stop" : 1674438473080,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "TestContext.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1674438473081,
+      "stop" : 1674438473089,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "WebSteps.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1674438473096,
+      "stop" : 1674438473109,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "k.beforeScenario(Scenario)",
+    "time" : {
+      "start" : 1674438473111,
+      "stop" : 1674438473111,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  I open browser",
+      "time" : {
+        "start" : 1674438473149,
+        "stop" : 1674438476792,
+        "duration" : 3643
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given  I open SauceDemoHome page",
+      "time" : {
+        "start" : 1674438476805,
+        "stop" : 1674438479287,
+        "duration" : 2482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see user name textbox area element",
+      "time" : {
+        "start" : 1674438479288,
+        "stop" : 1674438479435,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I click user name textbox area",
+      "time" : {
+        "start" : 1674438479437,
+        "stop" : 1674438479609,
+        "duration" : 172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I type \"standard_user\"",
+      "time" : {
+        "start" : 1674438479611,
+        "stop" : 1674438479735,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see password textbox area element",
+      "time" : {
+        "start" : 1674438479736,
+        "stop" : 1674438479829,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I fill:",
+      "time" : {
+        "start" : 1674438479830,
+        "stop" : 1674438480111,
+        "duration" : 281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79ec9ec541dc3d77",
+        "name" : "Data table",
+        "source" : "79ec9ec541dc3d77.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "When  I see login button area element",
+      "time" : {
+        "start" : 1674438480113,
+        "stop" : 1674438480211,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click login button area",
+      "time" : {
+        "start" : 1674438480213,
+        "stop" : 1674438480527,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see add to cart button area element",
+      "time" : {
+        "start" : 1674438480529,
+        "stop" : 1674438480647,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click add to cart button area",
+      "time" : {
+        "start" : 1674438480649,
+        "stop" : 1674438480944,
+        "duration" : 295
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see click basket button area element",
+      "time" : {
+        "start" : 1674438480946,
+        "stop" : 1674438481188,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click click basket button area",
+      "time" : {
+        "start" : 1674438481190,
+        "stop" : 1674438481418,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see click remove button area element",
+      "time" : {
+        "start" : 1674438481420,
+        "stop" : 1674438481539,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click click remove button area",
+      "time" : {
+        "start" : 1674438481541,
+        "stop" : 1674438481661,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see click all items button area element",
+      "time" : {
+        "start" : 1674438481663,
+        "stop" : 1674438481750,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click click all items button area",
+      "time" : {
+        "start" : 1674438481752,
+        "stop" : 1674438481928,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see add to cart button area element",
+      "time" : {
+        "start" : 1674438481929,
+        "stop" : 1674438482014,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click add to cart button area",
+      "time" : {
+        "start" : 1674438482015,
+        "stop" : 1674438482204,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see click basket button area element",
+      "time" : {
+        "start" : 1674438482205,
+        "stop" : 1674438482309,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click click basket button area",
+      "time" : {
+        "start" : 1674438482310,
+        "stop" : 1674438482425,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see click checkout button area element",
+      "time" : {
+        "start" : 1674438482426,
+        "stop" : 1674438482511,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click click checkout button area",
+      "time" : {
+        "start" : 1674438482512,
+        "stop" : 1674438482641,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I click first name textbox area",
+      "time" : {
+        "start" : 1674438482644,
+        "stop" : 1674438482764,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I want to write randomFirstName",
+      "time" : {
+        "start" : 1674438482766,
+        "stop" : 1674438482860,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I wait for 3 seconds",
+      "time" : {
+        "start" : 1674438482862,
+        "stop" : 1674438485866,
+        "duration" : 3004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I click last name textbox area",
+      "time" : {
+        "start" : 1674438485869,
+        "stop" : 1674438485979,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I want to write randomLastName Api",
+      "time" : {
+        "start" : 1674438485980,
+        "stop" : 1674438486634,
+        "duration" : 654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I wait for 3 seconds",
+      "time" : {
+        "start" : 1674438486635,
+        "stop" : 1674438489636,
+        "duration" : 3001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I click postal code name textbox area",
+      "time" : {
+        "start" : 1674438489638,
+        "stop" : 1674438489771,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I want to write randomIntegerCode",
+      "time" : {
+        "start" : 1674438489773,
+        "stop" : 1674438489852,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I wait for 3 seconds",
+      "time" : {
+        "start" : 1674438489853,
+        "stop" : 1674438492854,
+        "duration" : 3001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see click continue button area element",
+      "time" : {
+        "start" : 1674438492855,
+        "stop" : 1674438492922,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click click continue button area",
+      "time" : {
+        "start" : 1674438492923,
+        "stop" : 1674438493044,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see click finish button area element",
+      "time" : {
+        "start" : 1674438493046,
+        "stop" : 1674438493113,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I click click finish button area",
+      "time" : {
+        "start" : 1674438493114,
+        "stop" : 1674438493217,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I see finish complate message area element",
+      "time" : {
+        "start" : 1674438493218,
+        "stop" : 1674438493281,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I wait for 5 seconds",
+      "time" : {
+        "start" : 1674438493283,
+        "stop" : 1674438498284,
+        "duration" : 5001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 38,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "TestContext.afterScenario(Scenario)",
+    "time" : {
+      "start" : 1674438498290,
+      "stop" : 1674438498293,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "c.prepareProfilesToDispose(Scenario)",
+    "time" : {
+      "start" : 1674438498294,
+      "stop" : 1674438498295,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "k.prepareDeviceToRelease(Scenario)",
+    "time" : {
+      "start" : 1674438498296,
+      "stop" : 1674438498297,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "c.disposeProfilesAfterScenario()",
+    "time" : {
+      "start" : 1674438498299,
+      "stop" : 1674438500146,
+      "duration" : 1847
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "k.releaseDeviceAfterScenario()",
+    "time" : {
+      "start" : 1674438500148,
+      "stop" : 1674438500148,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Main Feature"
+  }, {
+    "name" : "story",
+    "value" : "True Login Scenario"
+  }, {
+    "name" : "tag",
+    "value" : "ilker"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "7684@DESKTOP-JSCTA9J.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "Main Feature"
+  }, {
+    "name" : "suite",
+    "value" : "Main Feature"
+  }, {
+    "name" : "testClass",
+    "value" : "True Login Scenario"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber3jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "268b2e7b7669a9f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674438360894,
+          "stop" : 1674438385830,
+          "duration" : 24936
+        }
+      }, {
+        "uid" : "45f4264e6ec7a246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674438138775,
+          "stop" : 1674438188549,
+          "duration" : 49774
+        }
+      }, {
+        "uid" : "f06abe850847b8db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674437955027,
+          "stop" : 1674438007683,
+          "duration" : 52656
+        }
+      }, {
+        "uid" : "8bf2f132fe2bfbc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674436667137,
+          "stop" : 1674436718067,
+          "duration" : 50930
+        }
+      }, {
+        "uid" : "3f96e75817f1c14f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1674435983532,
+          "stop" : 1674436006583,
+          "duration" : 23051
+        }
+      } ]
+    },
+    "tags" : [ "ilker" ]
+  },
+  "source" : "8e55d3b7c88c00d0.json",
+  "parameterValues" : [ ]
+}

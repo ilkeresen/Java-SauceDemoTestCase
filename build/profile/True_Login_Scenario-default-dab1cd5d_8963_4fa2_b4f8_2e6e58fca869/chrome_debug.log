@@ -1,0 +1,14 @@
+[8696:5456:0123/044755.202:WARNING:chrome_main_delegate.cc(607)] This is Chrome version 109.0.5414.75 (not a warning)
+[8696:8592:0123/044757.327:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+ERROR: Couldn't read tbsCertificate as SEQUENCE
+ERROR: Failed parsing Certificate
+
+[8696:5456:0123/044759.110:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://www.saucedemo.com/ (0)
+[8696:5456:0123/044801.318:INFO:CONSOLE(1)] "Content is cached for offline use.", source: https://www.saucedemo.com/static/js/main.3db41035.chunk.js (1)
+[8696:5456:0123/044805.251:ERROR:device_event_log_impl.cc(215)] [04:48:05.251] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: Sisteme baðlý bir aygýt çalýþmýyor. (0x1F)
+[8696:5456:0123/044805.254:ERROR:device_event_log_impl.cc(215)] [04:48:05.255] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: Sisteme baðlý bir aygýt çalýþmýyor. (0x1F)
+[8696:5456:0123/044805.255:ERROR:device_event_log_impl.cc(215)] [04:48:05.255] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: Sisteme baðlý bir aygýt çalýþmýyor. (0x1F)
+[8696:5456:0123/044817.836:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:265060
+[8696:5456:0123/044818.246:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:5087
+[8696:5456:0123/044818.356:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 1, file size:0
+[8696:5456:0123/044819.555:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

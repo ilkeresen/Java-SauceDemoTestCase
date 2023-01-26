@@ -1,0 +1,51 @@
+.cucumber-report table {
+  overflow: hidden;
+  border-spacing: 0;
+}
+
+.cucumber-report td, th {
+  padding: 10px;
+  position: relative;
+  outline: 0;
+  border: 1px solid lightgray;
+}
+
+.cucumber-report:not(.nohover) tbody tr:hover {
+  background-color: #ffa;
+}
+
+.cucumber-report td:hover::after,
+.cucumber-report thead th:not(:empty):hover::after,
+.cucumber-report td:focus::after,
+.cucumber-report thead th:not(:empty):focus::after { 
+  content: '';  
+  height: 10000px;
+  left: 0;
+  position: absolute;  
+  top: -5000px;
+  width: 100%;
+  z-index: -1;
+}
+
+.cucumber-report td:hover::after,
+.cucumber-report th:hover::after {
+  background-color: #ffa;
+}
+
+.cucumber-report td:focus::after,
+.cucumber-report th:focus::after {
+  background-color: lightblue;
+}
+
+/* Focus stuff for mobile */
+.cucumber-report td:focus::before,
+.cucumber-report tbody th:focus::before {
+  background-color: lightblue;
+  content: '';  
+  height: 100%;
+  top: 0;
+  left: -5000px;
+  position: absolute;  
+  width: 10000px;
+  z-index: -1;
+}

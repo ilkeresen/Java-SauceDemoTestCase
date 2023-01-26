@@ -1,0 +1,9 @@
+{
+  "baseUrlKey": "sauceUrl",
+  "uriPath": "",
+  "elements": {
+    "username text area": "//input[@id='user-name']",
+    "password text area": "//div[@class='form_group']/child::input[@id='password']",
+    "login button": "//div[@class='form_group']/following-sibling::input[@type='submit']"
+  }
+}

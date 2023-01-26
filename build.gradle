@@ -1,0 +1,8 @@
+buildscript {
+    ext.configureKuklaRepositories()
+}
+
+group "com.mycompany"
+version 1.0
+
+apply plugin: 'com.snapbytes.snaptest'
